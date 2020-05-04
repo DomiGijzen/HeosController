@@ -1,5 +1,16 @@
 {
     "elements": [],
-    "actions": [],
+    "actions": [
+        {
+            "name": "Text",
+            "type": "ValidationTextBox",
+            "caption": "Text"
+        },
+        {
+            "type": "Button",
+            "caption": "Send",
+            "onClick": "HEOS_Send($id, $Text);"
+        }
+    ],
     "status": []
 }
