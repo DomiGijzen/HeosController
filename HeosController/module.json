@@ -1,0 +1,19 @@
+{
+    "id": "{88DFD43F-A867-87C5-18E6-D5DE0E95FAB4}",
+    "name": "HeosController",
+    "type": 3,
+    "vendor": "Denon",
+    "aliases": [
+        "Denon - Heos",
+        "Heos"
+    ],
+    "parentRequirements": [
+        "{65248349-2475-0ED2-E5E8-C2DB1253C391}"
+    ],
+    "childRequirements": [],
+    "implemented": [
+        "{A816291E-1CF3-AFDC-0D10-9A262671D4C0}"
+    ],
+    "prefix": "HEOS",
+    "url": "https://github.com/DomiGijzen/HeosController"
+}
