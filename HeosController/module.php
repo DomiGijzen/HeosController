@@ -6,7 +6,7 @@
 			//Never delete this line!
 			parent::Create();
 
-			$this->ConnectParent("{6179ED6A-FC31-413C-BB8E-1204150CF376}");
+			$this->ConnectParent("{669D66CD-B0F9-E22A-C710-06A12247377F}");
 		}
 
 		public function Destroy()
@@ -21,9 +21,9 @@
 			parent::ApplyChanges();
 		}
 
-		public function Send(string $Text)
+		public function Send()
 		{
-			$this->SendDataToParent(json_encode(Array("DataID" => "{79827379-F36E-4ADA-8A95-5F8D1DC92FA9}", "Buffer" => $Text)));
+			$this->SendDataToParent(json_encode(Array("DataID" => "{65248349-2475-0ED2-E5E8-C2DB1253C391}")));
 		}
 
 		public function ReceiveData($JSONString)
