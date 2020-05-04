@@ -27,7 +27,7 @@
 
 		public function Send(string $Text)
 		{
-			$this->SendDataToChildren(json_encode(Array("DataID" => "{A816291E-1CF3-AFDC-0D10-9A262671D4C0}", "Buffer" => $Text)));
+			$this->SendDataToChildren(json_encode(Array("DataID" => "{8868F02A-B7A1-D72D-B860-AC61818658B0},{8868F02A-B7A1-D72D-B860-AC61818658B0}", "Buffer" => $Text)));
 		}
 
 	}

@@ -6,7 +6,7 @@
 			//Never delete this line!
 			parent::Create();
 
-			$this->ConnectParent("{669D66CD-B0F9-E22A-C710-06A12247377F}");
+			$this->ConnectParent("{5A43BC9C-EB88-6FD1-781D-AD219F75DA75}");
 		}
 
 		public function Destroy()
@@ -23,7 +23,7 @@
 
 		public function Send()
 		{
-			$this->SendDataToParent(json_encode(Array("DataID" => "{65248349-2475-0ED2-E5E8-C2DB1253C391}")));
+			$this->SendDataToParent(json_encode(Array("DataID" => "{7AA7375F-6A6D-99BF-F568-5523F073E96A}")));
 		}
 
 		public function ReceiveData($JSONString)

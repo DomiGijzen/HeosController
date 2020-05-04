@@ -1,0 +1,23 @@
+{
+    "id": "{5A43BC9C-EB88-6FD1-781D-AD219F75DA75}",
+    "name": "HeosSplitter",
+    "type": 2,
+    "vendor": "Denon",
+    "aliases": [],
+    "parentRequirements": [
+        "{F1F22094-CAD3-1F1A-48D8-D5E829045503}"
+    ],
+    "childRequirements": [
+        "{0ED57D5D-37DA-3E0F-3816-F1C7DBEFBC69}",
+        "{0ED57D5D-37DA-3E0F-3816-F1C7DBEFBC69}",
+        "{0ED57D5D-37DA-3E0F-3816-F1C7DBEFBC69}"
+    ],
+    "implemented": [
+        "{7AA7375F-6A6D-99BF-F568-5523F073E96A}",
+        "{7AA7375F-6A6D-99BF-F568-5523F073E96A}",
+        "{8868F02A-B7A1-D72D-B860-AC61818658B0}",
+        "{7AA7375F-6A6D-99BF-F568-5523F073E96A}"
+    ],
+    "prefix": "HEOSPLIT",
+    "url": "https://github.com/DomiGijzen/HeosController"
+}
