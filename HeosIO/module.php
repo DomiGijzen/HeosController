@@ -23,10 +23,10 @@
 			//Never delete this line!
 			parent::ApplyChanges();
 
-			$this->IPS_SetConfiguration('{"Host":$HeosIOHost,
-				"Port":$HeosIOPort,
-				"Open",$HeosIOOpen}');
-			$this->IPS_ApplyChanges;
+			// $this->IPS_SetConfiguration('{"Host":$HeosIOHost,
+			// 	"Port":$HeosIOPort,
+			// 	"Open",$HeosIOOpen}');
+			// $this->IPS_ApplyChanges;
 		}
 
 		public function ForwardData($JSONString)
