@@ -9,7 +9,7 @@
 			//Variables
 			$this->RegisterPropertyBoolean("HeosIOOpen", 1);
 			$this->RegisterPropertyString("HeosIOHost", "192.168.1.123");
-			$this->RegisterPropertyInteger("HeosIOPort", 1255);)
+			$this->RegisterPropertyInteger("HeosIOPort", 1255);
 		}
 
 		public function Destroy()
