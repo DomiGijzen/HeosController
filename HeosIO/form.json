@@ -1,16 +1,22 @@
 {
-    "elements": [],
-    "actions": [
+    "elements": [
         {
-            "name": "Text",
-            "type": "ValidationTextBox",
-            "caption": "Text"
+            "type": "Checkbox",
+            "name": "HeosIOOpen",
+            "caption": "Heos IO is active"
         },
         {
-            "type": "Button",
-            "caption": "Send",
-            "onClick": "HEOS_Send($id, $Text);"
+            "type": "ValidationTextBox",
+            "name": "HeosIOHost",
+            "caption": "IP of primary Heos device (always on)"
+        },
+        {
+            "type":"NumberSpinner",
+            "name":"HeosPort",
+            "value":1255,
+            "caption":"Port number of primary Heos device (always on)"
         }
     ],
+    "actions": [],
     "status": []
 }

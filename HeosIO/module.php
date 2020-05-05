@@ -5,6 +5,11 @@
 		{
 			//Never delete this line!
 			parent::Create();
+
+			//Variables
+			$this->RegisterPropertyBoolean("HeosIOOpen", 1);
+			$this->RegisterPropertyString("HeosIOHost", "192.168.1.123");
+			$this->RegisterPropertyInteger("HeosIOPort", 1255);)
 		}
 
 		public function Destroy()
@@ -17,6 +22,11 @@
 		{
 			//Never delete this line!
 			parent::ApplyChanges();
+
+			$this->IPS_SetConfiguration("Host":$HeosIOHost,
+			"Port":$HeosIOPort,
+			"Open",$HeosIOOpen);
+			$this->IPS_ApplyChanges;
 		}
 
 		public function ForwardData($JSONString)
