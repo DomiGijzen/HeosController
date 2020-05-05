@@ -1,12 +1,12 @@
 {
-    "id": "{A95A47E9-193A-7117-E2E1-96291C0BBEDE}",
+    "id": "{0784269C-E29D-3120-3894-7257FCF7C758}",
     "author": "Dominique Gijzen",
     "name": "HeosController",
     "url": "https://github.com/DomiGijzen/HeosController",
     "compatibility": {
         "version": "5.0"
     },
-    "version": "0.1",
+    "version": "0.2",
     "build": 0,
     "date": 0
 }

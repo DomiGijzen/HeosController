@@ -6,7 +6,7 @@
 			//Never delete this line!
 			parent::Create();
 
-			$this->RequireParent("{A0EBA9B7-2CD3-47F2-2671-9DD3F9F8A00C}");
+			$this->RequireParent("{6179ED6A-FC31-413C-BB8E-1204150CF376}");
 		}
 
 		public function Destroy()
@@ -26,7 +26,7 @@
 			$data = json_decode($JSONString);
 			IPS_LogMessage("Splitter FRWD", utf8_decode($data->Buffer));
 
-			$this->SendDataToParent(json_encode(Array("DataID" => "{F1F22094-CAD3-1F1A-48D8-D5E829045503}", $data->Buffer)));
+			$this->SendDataToParent(json_encode(Array("DataID" => "{79827379-F36E-4ADA-8A95-5F8D1DC92FA9}", $data->Buffer)));
 
 			return "String data for device instance!";
 		}
@@ -36,7 +36,7 @@
 			$data = json_decode($JSONString);
 			IPS_LogMessage("Splitter RECV", utf8_decode($data->Buffer));
 
-			$this->SendDataToChildren(json_encode(Array("DataID" => "{0ED57D5D-37DA-3E0F-3816-F1C7DBEFBC69},{0ED57D5D-37DA-3E0F-3816-F1C7DBEFBC69},{0ED57D5D-37DA-3E0F-3816-F1C7DBEFBC69}", $data->Buffer)));
+			$this->SendDataToChildren(json_encode(Array("DataID" => "{B9701821-C6B0-0C22-3D35-A6DA252F9BE5},{B9701821-C6B0-0C22-3D35-A6DA252F9BE5}", $data->Buffer)));
 		}
 
 	}

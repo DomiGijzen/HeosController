@@ -1,12 +1,12 @@
 <?php
-	class HeosController extends IPSModule {
+	class HeosDevice extends IPSModule {
 
 		public function Create()
 		{
 			//Never delete this line!
 			parent::Create();
 
-			$this->ConnectParent("{5A43BC9C-EB88-6FD1-781D-AD219F75DA75}");
+			$this->ConnectParent("{825330F6-0B85-184A-E5B3-A5934CB0D571}");
 		}
 
 		public function Destroy()
@@ -23,7 +23,7 @@
 
 		public function Send()
 		{
-			$this->SendDataToParent(json_encode(Array("DataID" => "{7AA7375F-6A6D-99BF-F568-5523F073E96A}")));
+			$this->SendDataToParent(json_encode(Array("DataID" => "{8375C186-9D5C-FCBF-BE85-170900AA661B}")));
 		}
 
 		public function ReceiveData($JSONString)
