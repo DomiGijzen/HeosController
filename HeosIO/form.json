@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "type": "Checkbox",
+            "type": "CheckBox",
             "name": "HeosIOOpen",
             "caption": "Heos IO is active"
         },
